@@ -12,9 +12,9 @@ echo "<table>";
 
 	}
 	else{
-                echo '<td>' .$j*$i.'</td>';
-           
-	} 
+      echo '<td>' .$j*$i.'</td>';
+
+	}
 	echo "</tr>";
         }
 

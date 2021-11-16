@@ -1,0 +1,42 @@
+<html>
+  <head>
+      <title> Web Store </title>
+      <header> Table Store </header>
+      </br></br><text>Choose the Button Below Whatever You Would Like To Purchase</text></br>
+      <script type="text/javascript" src="formChecker.js"> </script>
+	    <link href="style.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+	<img src="photos/coffee.png" id="1" width="200" height="200"></img> </br>
+  <text>Coffee Table</br>Price: $200</text></br></br></br>
+
+  <img src="photos/lunchroom.png" id="1" width="200" height="200"></img> </br>
+  <text>Lunch Room Table</br>Price: $300</text></br></br></br>
+
+  <img src="photos/whitefolding.png" id="1" width="200" height="200"></img> </br>
+  <text>White Folding Table</br>Price: $400</text></br></br></br>
+
+  <form onsubmit ="return checkInput();" action="customerBackend.php" method="post">
+    Username: <input type="text" id = "01" name="name"><br></br>
+    E-mail: <input type="email" id = "02" name="email"><br></br>
+    Password: <input type="text" id = "03" name="password"><br></br>
+
+    <text>What Tables Would You Like To Purchase?:</text> <br>
+    <input type="text" id="coffee" name = "q0" action="customerBackend.php" method="post" value="30"> Coffee Table</br>
+    <input type="text" id="12" name = "q1" action="customerBackend.php" method="post" value="30">Lunch Room Table </br>
+    <input type="text" id="13" name = "q2" action="customerBackend.php" method="post" value="30"> White Folding Table</br>
+
+    </br>
+    <text>Choose a shipping option:</text> <br>
+    <input type="radio" id="21" name = "ship" action="customerBackend.php" method="post" value="express"> Free 7 Day Shipping </br>
+    <input type="radio" id="22" name = "ship" action="customerBackend.php" method="post" value="over night"> $50.00 Over Night</br>
+    <input type="radio" id="23" name = "ship" action="customerBackend.php" method="post" value="3 day"> $5.00 3 Day </br>
+
+    <input type="submit">
+    </form>
+
+  <button onclick="document.location.href'https://people.eecs.ku.edu/~b808r060/EECS448Lab9/web_store/customerFrontend.html'">Reset</button>
+</br>
+
+
+</body>

@@ -1,0 +1,21 @@
+body{
+  background-color:orange;
+  text-align: center;
+}
+
+table{
+  border:1px solid black;
+    border-width: 3;
+    border-color: orange;
+    text-align: center;
+}
+
+td{
+  border:1px solid black;
+  text-align: center;
+}
+
+th{
+  border:1px solid black;
+  text-align: center;
+}
